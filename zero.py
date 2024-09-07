@@ -65,10 +65,12 @@ def clear():
 def logo():
     clear()
     print("""
-.-.-. .-. .-. .---. .----..-. .-..-..-..-. 
-| } }}{ {_} |/ {-. \} |__}|  \{ |{ |\ {} / 
-| |-' | { } }\ '-} /} '__}| }\  {| }/ {} \ 
-`-'   `-' `-' `---' `----'`-' `-'`-'`-'`- '""")
+╭━━━━┳━━━┳━━━┳━━━┳━━━┳━━━━┳━━━┳━━━┳━━━╮
+╰━━╮━┃╭━━┫╭━╮┃╭━╮┃╭━╮┃╭╮╭╮┃╭━╮┃╭━╮┃╭━━╯
+╱╱╭╯╭┫╰━━┫╰━╯┃┃╱┃┃╰━━╋╯┃┃╰┫┃╱┃┃╰━╯┃╰━━╮
+╱╭╯╭╯┃╭━━┫╭╮╭┫┃╱┃┣━━╮┃╱┃┃╱┃┃╱┃┃╭╮╭┫╭━━╯
+╭╯━╰━┫╰━━┫┃┃╰┫╰━╯┃╰━╯┃╱┃┃╱┃╰━╯┃┃┃╰┫╰━━╮
+╰━━━━┻━━━┻╯╰━┻━━━┻━━━╯╱╰╯╱╰━━━┻╯╰━┻━━━╯ """)
 def space():
     print("\n")
 
@@ -118,7 +120,7 @@ for x in range(1000):
     ugen.append(uaku2)
 
 
-note1="""- __Inbox__ Me for Join `Team Phoenix`\n- Try tool and **Review**"""
+note1="""- __Inbox__ Me t.me/kakatiri`\n- Try tool and **Review**"""
 n1=Markdown(note1)
 
 note2="""#  __RANDOM CLONEING TASK BOX__\n- Choice BD code \n- And Put Limit"""
@@ -288,7 +290,7 @@ def numb():
 def need(uid,pwx,fb,tl):
     global ok,ugen,loop
     session=requests.session()
-    sys.stdout.write(f"\r  \33[1;90m[\33[1;97mMiM\33[1;92m | {'{:.1%}'.format(loop/int(tl))} | \33[1;97m{loop} \33[1;90m] \r "),
+    sys.stdout.write(f"\r  \33[1;90m[\33[1;97mZEROSTORE\33[1;92m | {'{:.1%}'.format(loop/int(tl))} | \33[1;97m{loop} \33[1;90m] \r "),
     sys.stdout.flush()
     try:
         for ps in pwx:
